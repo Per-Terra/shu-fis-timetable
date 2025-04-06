@@ -3,7 +3,7 @@ import { computed } from 'vue';
 import type { Course } from '~/types/course';
 import syllabusData from '~/assets/data/2025/syllabus.json';
 
-const syllabuses = syllabusData as any[];
+const syllabuses = syllabusData as { [key: string]: any }[];
 
 const props = defineProps<{
   checked: boolean;
@@ -51,7 +51,7 @@ const onMouseLeave = () => emit('update:hover', null);
 const level = parseInt(props.number.substring(3, 4));
 const field = props.number.substring(5, 7);
 
-const syllabus = syllabuses.filter((s) => s.number === props.course.syllabus_number)[0];
+const syllabus = syllabuses.filter((s) => s.syllabus_number === props.course.syllabus_number)[0];
 
 const disabledState = computed(() => props.disabled || localCompleted.value || localSeen.value);
 </script>
@@ -127,9 +127,9 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
           :is-required="course.is_required_to_teaching_program"
         />
       </div>
-      <div class="flex items-center gap-1">
-        <span class="text-sm text-gray-500"> {{ level }}年</span>
-        <span class="text-sm text-gray-500">
+      <div class="flex items-center gap-1 text-sm text-gray-500">
+        <span> {{ level }}年</span>
+        <span>
           {{
             course.quarter !== undefined
               ? `${course.quarter}Q`
@@ -140,8 +140,9 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
                 : ''
           }}</span
         >
-        <span class="text-sm text-gray-500"> {{ course.credits }}単位</span>
-        <span v-if="syllabus" class="text-sm text-gray-500"> {{ syllabus.teachers[0].name }}</span>
+        <span> {{ course.credits }}単位</span>
+        <span v-if="syllabus">{{ syllabus.teachers[0].name }}</span>
+        <span v-else>シラバス未提供</span>
       </div>
       <div class="flex gap-2">
         <span v-if="props.disabled" class="text-sm text-gray-500">履修できません</span>
