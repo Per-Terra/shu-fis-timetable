@@ -58,7 +58,6 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
 
 <template>
   <div
-    :disabled="disabledState"
     class="flex gap-1 rounded-sm border border-gray-200 p-2 shadow-xs"
     :class="[
       props.disabled || (disabledState && (localCompleted || (localSeen && !localChecked)))
@@ -73,7 +72,7 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
     ]"
     @mouseenter="onMouseEnter"
     @mouseleave="onMouseLeave"
-    @click="localChecked = !localChecked"
+    @click="localChecked = disabledState ? localChecked : !localChecked"
   >
     <input
       v-model="localChecked"
