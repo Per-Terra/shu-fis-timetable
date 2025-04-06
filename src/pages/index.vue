@@ -245,7 +245,7 @@ function enrollAllRequired() {
             <div class="font-bold">1Q</div>
             <div class="flex">
               <div>
-                <span>{{ quarterStats[1].credit }}</span
+                <span>{{ quarterStats[1].credit.toFixed(1) }}</span
                 >単位
               </div>
               <div>
@@ -262,7 +262,7 @@ function enrollAllRequired() {
             <div class="font-bold">2Q</div>
             <div class="flex">
               <div>
-                <span>{{ quarterStats[2].credit }}</span
+                <span>{{ quarterStats[2].credit.toFixed(1) }}</span
                 >単位
               </div>
               <div>
@@ -279,7 +279,7 @@ function enrollAllRequired() {
             <div class="font-bold">3Q</div>
             <div class="flex">
               <div>
-                <span>{{ quarterStats[3].credit }}</span
+                <span>{{ quarterStats[3].credit.toFixed(1) }}</span
                 >単位
               </div>
               <div>
@@ -296,7 +296,7 @@ function enrollAllRequired() {
             <div class="font-bold">4Q</div>
             <div class="flex">
               <div>
-                <span>{{ quarterStats[4].credit }}</span
+                <span>{{ quarterStats[4].credit.toFixed(1) }}</span
                 >単位
               </div>
               <div>
@@ -309,7 +309,7 @@ function enrollAllRequired() {
         <div class="flex w-32 flex-col items-center justify-center bg-gray-800 text-white">
           <div>
             通算
-            <span class="mx-2">{{ totalCredits }}</span
+            <span class="mx-2">{{ totalCredits.toFixed(1) }}</span
             >単位
           </div>
         </div>
