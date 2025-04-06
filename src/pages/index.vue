@@ -186,13 +186,13 @@ function enrollAllRequired() {
         }}
       </p>
     </div> -->
-    <header class="sticky top-0 z-10 bg-white pt-2 shadow-sm">
+    <header class="sticky top-0 z-10 bg-white/60 pt-2 shadow-sm backdrop-blur-lg">
       <div class="mx-2 mb-2 flex h-10 gap-2">
         <label>
           <span class="mr-1">学年</span>
           <select
             v-model="currentGrade"
-            class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-lg"
+            class="h-full rounded-md border border-gray-300 bg-white px-1"
           >
             <option value="1">1年</option>
             <option value="2">2年</option>
@@ -204,7 +204,7 @@ function enrollAllRequired() {
           主プログラム
           <select
             v-model="mainProgram"
-            class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
+            class="h-full rounded-md border border-gray-300 bg-white px-1"
           >
             <option value="1">DS</option>
             <option value="2">IE</option>
@@ -228,13 +228,13 @@ function enrollAllRequired() {
           </label>
         </div>
         <button
-          class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
+          class="h-full rounded-md border border-gray-300 bg-white px-1"
           @click="enrollAllRequired"
         >
           必修科目をすべて登録
         </button>
         <button
-          class="h-full rounded-md border border-gray-300 bg-red-500 px-1 font-bold text-white shadow-sm"
+          class="h-full rounded-md border border-gray-300 bg-red-500 px-1 font-bold text-white"
           @click="Object.keys(enrolledCourses).forEach((key) => (enrolledCourses[key] = false))"
         >
           選択科目をすべて解除
