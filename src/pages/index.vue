@@ -229,6 +229,12 @@ function enrollAllRequired() {
           必修科目をすべて登録
         </button>
         <button
+          class="h-full cursor-pointer rounded-md border border-gray-300 bg-purple-500 px-2 text-white hover:bg-purple-600"
+          @click="Object.keys(seenCourses).forEach((key) => (seenCourses[key] = false))"
+        >
+          チェックをすべて解除
+        </button>
+        <button
           class="h-full cursor-pointer rounded-md border border-gray-300 bg-red-500 px-2 text-white hover:bg-red-600"
           @click="Object.keys(enrolledCourses).forEach((key) => (enrolledCourses[key] = false))"
         >
