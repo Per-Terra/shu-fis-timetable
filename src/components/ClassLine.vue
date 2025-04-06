@@ -2,6 +2,7 @@
 import { computed } from 'vue';
 import type { Course } from '~/types/course';
 import syllabusData from '~/assets/data/2025/syllabus.json';
+import type { TimetableEntry } from '~/types/timetableEntry';
 
 const syllabuses = syllabusData as { [key: string]: any }[];
 
@@ -11,6 +12,7 @@ const props = defineProps<{
   seen: boolean;
   number: string;
   course: Course;
+  timetableEntry: TimetableEntry;
   hover?: string | null;
   disabled?: boolean;
   currentGrade: number;
@@ -127,10 +129,11 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
           :is-required="course.is_required_to_teaching_program"
         />
       </div>
-      <div class="flex items-center gap-1 text-sm text-gray-500">
-        <span> {{ level }}年</span>
-        <span>
-          {{
+      <div class="flex flex-wrap gap-1 text-sm text-gray-500">
+        <span class="flex flex-wrap gap-1">
+          <Icon name="ic:baseline-sticky-note-2" class="relative top-[3px]" />
+          <span>{{ level }}年</span>
+          <span>{{
             course.quarter !== undefined
               ? `${course.quarter}Q`
               : course.semester !== undefined
@@ -138,18 +141,25 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
                   ? '前期'
                   : '後期'
                 : ''
-          }}
+          }}</span>
+          <span>{{ course.credits }}単位</span>
         </span>
-        <span> {{ course.credits }}単位</span>
-        <div v-if="syllabus">
-          <span>{{ syllabus.teachers[0].name }} </span>
-          <span v-if="syllabus.teachers.length > 1" class="ml-1"
-            >他{{ syllabus.teachers.length - 1 }}名</span
-          >
-        </div>
-        <span v-else>シラバス未提供</span>
+        <span class="flex flex-wrap gap-1">
+          <span v-if="syllabus">
+            <Icon name="ic:baseline-person" class="relative top-0.5 mr-0.5" />
+            <span>{{ syllabus.teachers[0].name.replace(/\s/g, '') }}</span>
+            <span v-if="syllabus.teachers.length > 1" class="ml-1"
+              >ほか{{ syllabus.teachers.length - 1 }}名</span
+            >
+          </span>
+          <span v-else>シラバス未提供</span>
+          <span v-if="timetableEntry.location">
+            <Icon name="ic:baseline-location-on" class="relative top-0.5" />
+            <span>{{ timetableEntry.location }}</span>
+          </span>
+        </span>
       </div>
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-2">
         <span v-if="props.disabled" class="text-sm text-gray-500">履修できません</span>
         <button
           v-if="!props.disabled"
