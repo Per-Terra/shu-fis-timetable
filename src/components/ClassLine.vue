@@ -72,7 +72,7 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
     ]"
     @mouseenter="onMouseEnter"
     @mouseleave="onMouseLeave"
-    @click="localChecked = disabledState ? localChecked : !localChecked"
+    @click="!disabledState && (localChecked = !localChecked)"
   >
     <input
       v-model="localChecked"
