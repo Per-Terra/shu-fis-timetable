@@ -138,10 +138,15 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
                   ? '前期'
                   : '後期'
                 : ''
-          }}</span
-        >
+          }}
+        </span>
         <span> {{ course.credits }}単位</span>
-        <span v-if="syllabus">{{ syllabus.teachers[0].name }}</span>
+        <div v-if="syllabus">
+          <span>{{ syllabus.teachers[0].name }} </span>
+          <span v-if="syllabus.teachers.length > 1" class="ml-1"
+            >他{{ syllabus.teachers.length - 1 }}名</span
+          >
+        </div>
         <span v-else>シラバス未提供</span>
       </div>
       <div class="flex gap-2">
