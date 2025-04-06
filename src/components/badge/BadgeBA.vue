@@ -1,11 +1,7 @@
 <template>
   <BadgeMain
     class="w-7"
-    :class="
-      isRequired
-        ? 'bg-emerald-500 text-white'
-        : 'border border-emerald-500 bg-white text-emerald-500'
-    "
+    :class="isRequired ? 'bg-lime-500 text-white' : 'border border-lime-500 bg-white text-lime-500'"
     >BA</BadgeMain
   >
 </template>
