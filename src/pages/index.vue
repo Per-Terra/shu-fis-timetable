@@ -145,12 +145,17 @@ const totalCredits = computed(() => {
 // mainProgramの値の変更を監視
 watch(mainProgram, (newValue) => {
   // enrolledProgramsはrefオブジェクトなので、.valueで参照
-  enrolledPrograms.value = {
-    ...enrolledPrograms.value,
-    DS: newValue === '1',
-    IE: newValue === '2',
-    BA: newValue === '3',
-  };
+  switch (newValue) {
+    case '1':
+      enrolledPrograms.value.DS = true;
+      break;
+    case '2':
+      enrolledPrograms.value.IE = true;
+      break;
+    case '3':
+      enrolledPrograms.value.BA = true;
+      break;
+  }
 });
 
 // 必修科目をすべてenrollする関数
