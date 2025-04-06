@@ -34,7 +34,7 @@ const completedCourses = reactive(
   Object.fromEntries(Object.keys(courses).map((key) => [key, false])),
 );
 const seenCourses = reactive(Object.fromEntries(Object.keys(courses).map((key) => [key, false])));
-const currentGrade = ref(2);
+const currentGrade = ref('1');
 const mainProgram = ref('1');
 
 // 状態の復元（ブラウザ上のみ）
@@ -161,7 +161,7 @@ function enrollAllRequired() {
         (enrolledPrograms.value.DS && courses[key].is_required_to_master_ds) ||
         (enrolledPrograms.value.IE && courses[key].is_required_to_master_ie) ||
         (enrolledPrograms.value.BA && courses[key].is_required_to_master_ba)) &&
-      parseInt(key.substring(3, 4)) === currentGrade.value
+      key.substring(3, 4) === currentGrade.value
     ) {
       enrolledCourses[key] = true;
     }
@@ -353,7 +353,7 @@ function enrollAllRequired() {
                 :number="number"
                 :course="courses[number]"
                 :disabled="
-                  parseInt(number.substring(3, 4)) > currentGrade ||
+                  parseInt(number.substring(3, 4)) > parseInt(currentGrade) ||
                   (['22', '23', '24'].includes(number.substring(5, 7)) &&
                     ((!enrolledPrograms.DS && number.substring(5, 7) === '22') ||
                       (!enrolledPrograms.IE && number.substring(5, 7) === '23') ||
@@ -365,7 +365,7 @@ function enrollAllRequired() {
                     )) ||
                   (!enrolledPrograms.TP && number.substring(5, 6) === '9')
                 "
-                :current-grade="currentGrade"
+                :current-grade="parseInt(currentGrade)"
               >
                 {{ courses[number].course_name }}
               </ClassLine>
@@ -388,7 +388,7 @@ function enrollAllRequired() {
                 :number="number"
                 :course="courses[number]"
                 :disabled="
-                  parseInt(number.substring(3, 4)) > currentGrade ||
+                  parseInt(number.substring(3, 4)) > parseInt(currentGrade) ||
                   (['22', '23', '24'].includes(number.substring(5, 7)) &&
                     ((!enrolledPrograms.DS && number.substring(5, 7) === '22') ||
                       (!enrolledPrograms.IE && number.substring(5, 7) === '23') ||
@@ -400,7 +400,7 @@ function enrollAllRequired() {
                     )) ||
                   (!enrolledPrograms.TP && number.substring(5, 6) === '9')
                 "
-                :current-grade="currentGrade"
+                :current-grade="parseInt(currentGrade)"
               >
                 {{ courses[number].course_name }}
               </ClassLine>
