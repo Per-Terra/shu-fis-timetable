@@ -1,0 +1,959 @@
+{
+  "31-2-22-31-02": [
+    {
+      "day": 1,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-2-21-32-04": [
+    {
+      "day": 1,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-1-21-33-06": [
+    {
+      "day": 1,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-2-21-34-07": [
+    {
+      "day": 1,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-2-21-31-01": [
+    {
+      "day": 1,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-1-21-32-05": [
+    {
+      "day": 1,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-92-22-05": [
+    {
+      "day": 1,
+      "period": 2,
+      "type": "教",
+      "location": "S1302"
+    }
+  ],
+  "31-2-25-33-01": [
+    {
+      "day": 1,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-1-24-34-01": [
+    {
+      "day": 1,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-21-34-09": [
+    {
+      "day": 1,
+      "period": 2,
+      "location": "1141"
+    },
+    {
+      "day": 4,
+      "period": 2,
+      "location": "1141"
+    }
+  ],
+  "31-2-24-31-01": [
+    {
+      "day": 1,
+      "period": 3,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 3,
+      "location": "1142"
+    }
+  ],
+  "31-2-21-32-03": [
+    {
+      "day": 1,
+      "period": 3,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 3,
+      "location": "1142"
+    }
+  ],
+  "31-2-26-21-01": [
+    {
+      "day": 1,
+      "period": 3,
+      "location": "1141"
+    }
+  ],
+  "31-2-21-33-05": [
+    {
+      "day": 1,
+      "period": 3,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 3,
+      "location": "1142"
+    }
+  ],
+  "31-2-23-34-06": [
+    {
+      "day": 1,
+      "period": 3,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 3,
+      "location": "1142"
+    }
+  ],
+  "31-2-23-31-02": [
+    {
+      "day": 1,
+      "period": 4,
+      "location": "1141"
+    }
+  ],
+  "31-2-21-33-08": [
+    {
+      "day": 1,
+      "period": 4,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 4,
+      "location": "1142"
+    }
+  ],
+  "31-1-21-34-11": [
+    {
+      "day": 1,
+      "period": 4,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 4,
+      "location": "1142"
+    }
+  ],
+  "31-2-22-34-01": [
+    {
+      "day": 1,
+      "period": 4,
+      "location": "S1302"
+    },
+    {
+      "day": 4,
+      "period": 4,
+      "location": "S1302"
+    }
+  ],
+  "31-1-92-21-01": [
+    {
+      "day": 1,
+      "period": 5,
+      "type": "教",
+      "location": "1141"
+    }
+  ],
+  "31-2-13-21-01": [
+    {
+      "day": 1,
+      "period": 5,
+      "location": "1124"
+    },
+    {
+      "day": 5,
+      "period": 4,
+      "location": "1124"
+    }
+  ],
+  "31-1-13-22-04": [
+    {
+      "day": 1,
+      "period": 5,
+      "location": "1124"
+    },
+    {
+      "day": 5,
+      "period": 4,
+      "location": "1124"
+    }
+  ],
+  "31-2-22-33-05": [
+    {
+      "day": 1,
+      "period": 5,
+      "location": "1142"
+    },
+    {
+      "day": 4,
+      "period": 5,
+      "location": "1142"
+    }
+  ],
+  "31-2-21-31-02": [
+    {
+      "day": 2,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-1-13-21-03": [
+    {
+      "day": 2,
+      "period": 1,
+      "location": "1125"
+    }
+  ],
+  "31-1-11-22-05": [
+    {
+      "day": 2,
+      "period": 1,
+      "location": "1125"
+    }
+  ],
+  "31-2-21-33-06": [
+    {
+      "day": 2,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-2-22-34-04": [
+    {
+      "day": 2,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 1,
+      "location": "1142"
+    }
+  ],
+  "31-1-21-31-01": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-23-31-01": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "オンライン"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "オンライン"
+    }
+  ],
+  "31-1-21-32-03": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-24-32-03": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "オンライン"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "オンライン"
+    }
+  ],
+  "31-2-13-21-03": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "521"
+    },
+    {
+      "day": 2,
+      "period": 3,
+      "location": "521"
+    }
+  ],
+  "31-1-13-22-07": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "521"
+    },
+    {
+      "day": 2,
+      "period": 3,
+      "location": "521"
+    }
+  ],
+  "31-2-14-22-06": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "1124"
+    }
+  ],
+  "31-2-23-33-05": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-1-23-34-01": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-23-34-07": [
+    {
+      "day": 2,
+      "period": 2,
+      "location": "1141"
+    },
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1141"
+    }
+  ],
+  "31-1-11-21-04": [
+    {
+      "day": 2,
+      "period": 3,
+      "location": "1125"
+    }
+  ],
+  "31-2-92-21-01": [
+    {
+      "day": 2,
+      "period": 3,
+      "type": "教",
+      "location": "1141"
+    }
+  ],
+  "31-2-12-11-01": [
+    {
+      "day": 2,
+      "period": 3,
+      "location": "1121",
+      "note": "一部、集中講義にて開催"
+    }
+  ],
+  "31-1-12-22-03": [
+    {
+      "day": 2,
+      "period": 3,
+      "location": "1125"
+    }
+  ],
+  "31-2-24-33-04": [
+    {
+      "day": 2,
+      "period": 3,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 3,
+      "location": "1142"
+    }
+  ],
+  "31-2-25-34-02": [
+    {
+      "day": 2,
+      "period": 3,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 3,
+      "location": "1142"
+    }
+  ],
+  "31-2-22-33-03": [
+    {
+      "day": 2,
+      "period": 4,
+      "location": "1142"
+    },
+    {
+      "day": 5,
+      "period": 4,
+      "location": "1142"
+    }
+  ],
+  "31-1-22-34-01": [
+    {
+      "day": 2,
+      "period": 4,
+      "location": "オンライン・1142"
+    },
+    {
+      "day": 5,
+      "period": 4,
+      "location": "オンライン・1142"
+    }
+  ],
+  "31-1-11-21-03": [
+    {
+      "day": 2,
+      "period": 5,
+      "location": "1125"
+    }
+  ],
+  "31-2-92-21-04": [
+    {
+      "day": 2,
+      "period": 5,
+      "type": "教",
+      "location": "1141"
+    }
+  ],
+  "31-2-26-21-02": [
+    {
+      "day": 2,
+      "period": 5,
+      "location": "521"
+    }
+  ],
+  "31-1-13-22-06": [
+    {
+      "day": 2,
+      "period": 5,
+      "location": "521"
+    }
+  ],
+  "31-1-21-31-02": [
+    {
+      "day": 3,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 3,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-24-32-02": [
+    {
+      "day": 3,
+      "period": 1,
+      "location": "オンライン・1142"
+    },
+    {
+      "day": 3,
+      "period": 2,
+      "location": "オンライン・1142"
+    }
+  ],
+  "31-1-21-33-10": [
+    {
+      "day": 3,
+      "period": 1,
+      "location": "1142"
+    },
+    {
+      "day": 3,
+      "period": 2,
+      "location": "1142"
+    }
+  ],
+  "31-2-23-33-04": [
+    {
+      "day": 3,
+      "period": 1,
+      "location": "601"
+    },
+    {
+      "day": 3,
+      "period": 2,
+      "location": "601"
+    }
+  ],
+  "31-1-14-21-04": [
+    {
+      "day": 3,
+      "period": 3,
+      "location": "521"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "522"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "523"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "11号館第2実習室"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "601"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "531"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "532"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "533"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "524"
+    },
+    {
+      "day": 3,
+      "period": 3,
+      "location": "525"
+    }
+  ],
+  "31-1-11-21-02": [
+    {
+      "day": 3,
+      "period": 4,
+      "location": "記念館 他"
+    },
+    {
+      "day": 3,
+      "period": 4,
+      "location": "記念館 他"
+    },
+    {
+      "day": 3,
+      "period": 4,
+      "location": "記念館 他"
+    },
+    {
+      "day": 3,
+      "period": 4,
+      "location": "記念館 他"
+    }
+  ],
+  "31-2-11-21-01": [
+    {
+      "day": 3,
+      "period": 4,
+      "location": "532"
+    }
+  ],
+  "31-1-11-22-08": [
+    {
+      "day": 3,
+      "period": 4,
+      "location": "1125"
+    }
+  ],
+  "31-1-11-22-06": [
+    {
+      "day": 3,
+      "period": 4,
+      "location": "記念館 他"
+    },
+    {
+      "day": 3,
+      "period": 4,
+      "location": "記念館 他"
+    }
+  ],
+  "31-1-14-11-01": [
+    {
+      "day": 3,
+      "period": 5,
+      "location": "1125・1142"
+    }
+  ],
+  "31-2-14-11-01": [
+    {
+      "day": 3,
+      "period": 5,
+      "location": "1125・1142・1141"
+    }
+  ],
+  "31-1-13-21-01": [
+    {
+      "day": 4,
+      "period": 1,
+      "location": "1125"
+    }
+  ],
+  "31-2-12-21-02": [
+    {
+      "day": 4,
+      "period": 2,
+      "location": "S1301"
+    }
+  ],
+  "31-2-12-21-04": [
+    {
+      "day": 4,
+      "period": 3,
+      "location": "1123"
+    },
+    {
+      "day": 4,
+      "period": 4,
+      "location": "1123"
+    }
+  ],
+  "31-1-12-22-02": [
+    {
+      "day": 4,
+      "period": 3,
+      "location": "1125"
+    }
+  ],
+  "31-1-26-21-01": [
+    {
+      "day": 4,
+      "period": 4,
+      "location": "S1301"
+    }
+  ],
+  "31-2-13-21-02": [
+    {
+      "day": 4,
+      "period": 4,
+      "location": "1122"
+    },
+    {
+      "day": 4,
+      "period": 5,
+      "location": "1122"
+    }
+  ],
+  "31-2-23-31-03": [
+    {
+      "day": 4,
+      "period": 4,
+      "location": "1142"
+    }
+  ],
+  "31-1-13-22-05": [
+    {
+      "day": 4,
+      "period": 4,
+      "location": "1122"
+    },
+    {
+      "day": 4,
+      "period": 5,
+      "location": "1122"
+    }
+  ],
+  "31-1-13-21-02": [
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1125"
+    }
+  ],
+  "31-1-11-22-07": [
+    {
+      "day": 5,
+      "period": 2,
+      "location": "1125"
+    }
+  ],
+  "31-1-14-22-07": [
+    {
+      "day": 5,
+      "period": 2,
+      "location": "S1301"
+    }
+  ],
+  "31-1-11-21-01": [
+    {
+      "day": 5,
+      "period": 3,
+      "location": "S1401・S1402"
+    },
+    {
+      "day": 5,
+      "period": 4,
+      "location": "S1401・S1402"
+    }
+  ],
+  "31-2-14-21-04": [
+    {
+      "day": 5,
+      "period": 3,
+      "location": "1141"
+    }
+  ],
+  "31-1-14-22-10": [
+    {
+      "day": 5,
+      "period": 3,
+      "location": "1125"
+    }
+  ],
+  "31-2-14-21-03": [
+    {
+      "day": 5,
+      "period": 4,
+      "location": "1121"
+    },
+    {
+      "day": 5,
+      "period": 4,
+      "location": "1121"
+    }
+  ],
+  "31-2-92-21-02": [
+    {
+      "day": 5,
+      "period": 4,
+      "intensive_schedule": "8/21、8/22、8/23",
+      "type": "教",
+      "location": "601",
+      "note": "一部、集中講義にて開催"
+    }
+  ],
+  "31-1-21-32-04": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-14-21-02": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-14-21-06": [
+    {
+      "is_intensive_course": true,
+      "is_in_person": true
+    }
+  ],
+  "31-1-14-21-03": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-14-21-05": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-14-21-02": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-92-21-03": [
+    {
+      "is_intensive_course": true,
+      "intensive_schedule": "8/10、8/11、8/12、8/18",
+      "is_in_person": true,
+      "is_online": true
+    }
+  ],
+  "31-2-12-21-03": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-11-21-02": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-21-33-09": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-21-33-08": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-21-33-07": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-24-34-05": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-24-34-06": [
+    {
+      "is_intensive_course": true,
+      "is_online": true
+    }
+  ],
+  "31-1-14-22-08": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-1-14-22-09": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-14-22-05": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-92-22-07": [
+    {
+      "is_intensive_course": true,
+      "is_on_demand": true
+    }
+  ],
+  "31-2-92-22-06": [
+    {
+      "is_intensive_course": true,
+      "intensive_schedule": "9/8、9/9、9/10、9/11",
+      "is_in_person": true,
+      "is_online": true
+    }
+  ],
+  "31-1-12-11-01": [
+    {
+      "is_intensive_course": true,
+      "intensive_schedule": "5/24、6/7、6/21",
+      "is_in_person": true
+    }
+  ]
+}

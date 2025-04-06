@@ -1,0 +1,982 @@
+{
+  "31-1-11-21-01": {
+    "course_name": "メンタルヘルス入門",
+    "credits": 1,
+    "semester": 1,
+    "syllabus_number": "1100200A"
+  },
+  "31-1-11-21-02": {
+    "course_name": "教養スポーツ実習Ⅰ",
+    "credits": 1,
+    "is_required_to_graduate": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "1008900A"
+  },
+  "31-1-11-21-03": {
+    "course_name": "持続可能な社会とダイバーシティ",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1012300A"
+  },
+  "31-1-11-21-04": {
+    "course_name": "周南Well-being創生入門",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "semester": 1,
+    "syllabus_number": "1100100A"
+  },
+  "31-1-11-22-05": {
+    "course_name": "異文化コミュニケーション",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "2024300A"
+  },
+  "31-1-11-22-06": {
+    "course_name": "教養スポーツ実習Ⅱ",
+    "credits": 1,
+    "semester": 2,
+    "syllabus_number": "1009000A"
+  },
+  "31-1-11-22-07": {
+    "course_name": "健康とスポーツ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "1100300A"
+  },
+  "31-1-11-22-08": {
+    "course_name": "人の健康生活",
+    "credits": 1,
+    "semester": 2,
+    "syllabus_number": "1012700A"
+  },
+  "31-1-12-11-01": {
+    "course_name": "デザインシンキング",
+    "credits": 2,
+    "is_full_year": true,
+    "syllabus_number": "1100500A"
+  },
+  "31-1-12-22-02": {
+    "course_name": "周南地域と産業",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1012200A"
+  },
+  "31-1-12-22-03": {
+    "course_name": "周南地域文化講座",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1012100A"
+  },
+  "31-1-13-21-01": {
+    "course_name": "社会学",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1002300A"
+  },
+  "31-1-13-21-02": {
+    "course_name": "哲学",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1009600A"
+  },
+  "31-1-13-21-03": {
+    "course_name": "日本国憲法",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "1001900A"
+  },
+  "31-1-13-22-04": {
+    "course_name": "ドイツ語Ⅰ",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1004700A"
+  },
+  "31-1-13-22-05": {
+    "course_name": "韓国語Ⅰ",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1004300A"
+  },
+  "31-1-13-22-06": {
+    "course_name": "生活と経済経営",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1100900A"
+  },
+  "31-1-13-22-07": {
+    "course_name": "中国語Ⅰ",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1004100A"
+  },
+  "31-1-14-11-01": {
+    "course_name": "キャリア形成活動Ⅰ",
+    "credits": 2,
+    "is_full_year": true,
+    "is_required_to_graduate": true,
+    "syllabus_number": "1014100A"
+  },
+  "31-1-14-21-02": {
+    "course_name": "Python入門",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "2026000A"
+  },
+  "31-1-14-21-03": {
+    "course_name": "コミュニケーション英語Ⅰ",
+    "credits": 1,
+    "is_required_to_graduate": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1
+  },
+  "31-1-14-21-04": {
+    "course_name": "教養ゼミ",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "semester": 1,
+    "syllabus_number": "1009800IB"
+  },
+  "31-1-14-21-05": {
+    "course_name": "情報リテラシー",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1008500A"
+  },
+  "31-1-14-21-06": {
+    "course_name": "留学英語",
+    "credits": 1,
+    "semester": 1,
+    "syllabus_number": "1101100A"
+  },
+  "31-1-14-22-07": {
+    "course_name": "アカデミックライティング",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1101300A"
+  },
+  "31-1-14-22-08": {
+    "course_name": "コミュニケーション英語Ⅱ",
+    "credits": 1,
+    "is_required_to_graduate": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2
+  },
+  "31-1-14-22-09": {
+    "course_name": "データサイエンス入門",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "1008300A"
+  },
+  "31-1-14-22-10": {
+    "course_name": "情報倫理",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "1102500A"
+  },
+  "31-1-21-31-01": {
+    "course_name": "情報科学概論",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "quarter": 1,
+    "syllabus_number": "2100100A"
+  },
+  "31-1-21-31-02": {
+    "course_name": "実社会とデータ分析",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "is_teaching_program_course": true,
+    "quarter": 1,
+    "syllabus_number": "2100200A"
+  },
+  "31-1-21-32-03": {
+    "course_name": "計算機概論",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "quarter": 2,
+    "syllabus_number": "2100300A"
+  },
+  "31-1-21-32-04": {
+    "course_name": "Python応用",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "quarter": 2,
+    "syllabus_number": "2100400A"
+  },
+  "31-1-21-32-05": {
+    "course_name": "データ分析基礎",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "quarter": 2,
+    "syllabus_number": "2100500A"
+  },
+  "31-1-21-33-06": {
+    "course_name": "線形代数基礎",
+    "credits": 2,
+    "quarter": 3,
+    "syllabus_number": "2100600A"
+  },
+  "31-1-21-33-07": {
+    "course_name": "VBAプログラミング",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "is_teaching_program_course": true,
+    "quarter": 3,
+    "syllabus_number": "2100700A"
+  },
+  "31-1-21-33-08": {
+    "course_name": "データの可視化",
+    "credits": 2,
+    "is_teaching_program_course": true,
+    "quarter": 3,
+    "syllabus_number": "2100800A"
+  },
+  "31-1-21-33-09": {
+    "course_name": "企業とデータ分析",
+    "credits": 2,
+    "quarter": 3,
+    "syllabus_number": "2100900A"
+  },
+  "31-1-21-33-10": {
+    "course_name": "地方創生とDX",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "quarter": 3,
+    "syllabus_number": "2101100A"
+  },
+  "31-1-21-34-11": {
+    "course_name": "微分積分基礎",
+    "credits": 2,
+    "quarter": 4,
+    "syllabus_number": "2101000A"
+  },
+  "31-1-22-34-01": {
+    "course_name": "データサイエンス概論",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_required_to_master_ds": true,
+    "quarter": 4,
+    "syllabus_number": "2102300A"
+  },
+  "31-1-23-34-01": {
+    "course_name": "情報エンジニアリング概論",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_required_to_master_ie": true,
+    "quarter": 4,
+    "syllabus_number": "2103400A"
+  },
+  "31-1-24-34-01": {
+    "course_name": "ビジネスアナリティクス概論",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_required_to_master_ba": true,
+    "quarter": 4,
+    "syllabus_number": "2104400A"
+  },
+  "31-1-26-21-01": {
+    "course_name": "地域観光まちづくり論",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "2106000A"
+  },
+  "31-1-92-21-01": {
+    "course_name": "教師論",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7000100A"
+  },
+  "31-1-92-22-02": {
+    "course_name": "教育課程論",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7000500A"
+  },
+  "31-2-11-21-01": {
+    "course_name": "健康と福祉",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1009100A"
+  },
+  "31-2-11-21-02": {
+    "course_name": "周南Well-being創生論",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "semester": 1,
+    "syllabus_number": "1100400A"
+  },
+  "31-2-12-11-01": {
+    "course_name": "ワークショップデザインⅠ",
+    "credits": 2,
+    "is_full_year": true,
+    "syllabus_number": "1012400A"
+  },
+  "31-2-12-21-02": {
+    "course_name": "アントレプレナーシップ入門",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "2031000A"
+  },
+  "31-2-12-21-03": {
+    "course_name": "自然災害と防災",
+    "credits": 1,
+    "semester": 1,
+    "syllabus_number": "1100600A"
+  },
+  "31-2-12-21-04": {
+    "course_name": "ソーシャルアントレプレナーシップ",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1100700A"
+  },
+  "31-2-13-21-01": {
+    "course_name": "ドイツ語Ⅱ",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1004800A"
+  },
+  "31-2-13-21-02": {
+    "course_name": "韓国語Ⅱ",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1004400A"
+  },
+  "31-2-13-21-03": {
+    "course_name": "中国語Ⅱ",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1004200A"
+  },
+  "31-2-14-11-01": {
+    "course_name": "キャリア形成活動Ⅱ",
+    "credits": 2,
+    "is_full_year": true,
+    "syllabus_number": "1014200A"
+  },
+  "31-2-14-21-02": {
+    "course_name": "コミュニケーション英語Ⅲ",
+    "credits": 1,
+    "is_required_to_graduate": true,
+    "semester": 1
+  },
+  "31-2-14-21-03": {
+    "course_name": "ビジネス英会話",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "1012800A"
+  },
+  "31-2-14-21-04": {
+    "course_name": "情報社会論",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "2021200A"
+  },
+  "31-2-14-22-05": {
+    "course_name": "コミュニケーション英語Ⅳ",
+    "credits": 1,
+    "is_required_to_graduate": true,
+    "semester": 2
+  },
+  "31-2-14-22-06": {
+    "course_name": "ビジネス英作文",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1012900A"
+  },
+  "31-2-21-31-01": {
+    "course_name": "確率統計基礎",
+    "credits": 2,
+    "quarter": 1,
+    "syllabus_number": "2101200A"
+  },
+  "31-2-21-31-02": {
+    "course_name": "AI・機械学習基礎",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "quarter": 1,
+    "syllabus_number": "2101300A"
+  },
+  "31-2-21-32-03": {
+    "course_name": "Javaプログラミング",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "quarter": 2,
+    "syllabus_number": "2101400A"
+  },
+  "31-2-21-32-04": {
+    "course_name": "言語情報学",
+    "credits": 2,
+    "quarter": 2,
+    "syllabus_number": "2025900A"
+  },
+  "31-2-21-33-05": {
+    "course_name": "Webアプリケーション開発",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "quarter": 3,
+    "syllabus_number": "2101500A"
+  },
+  "31-2-21-33-06": {
+    "course_name": "実践英語(AI)",
+    "credits": 2,
+    "quarter": 3,
+    "syllabus_number": "2101600A"
+  },
+  "31-2-21-33-08": {
+    "course_name": "線形代数演習",
+    "credits": 2,
+    "quarter": 3,
+    "syllabus_number": "2126800A"
+  },
+  "31-2-21-34-07": {
+    "course_name": "実践英語(数学)",
+    "credits": 2,
+    "quarter": 4,
+    "syllabus_number": "2101700A"
+  },
+  "31-2-21-34-09": {
+    "course_name": "解析基礎",
+    "credits": 2,
+    "quarter": 4
+  },
+  "31-2-22-31-02": {
+    "course_name": "IoTとAI",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_required_to_master_ds": true,
+    "quarter": 1,
+    "syllabus_number": "2102500A"
+  },
+  "31-2-22-33-03": {
+    "course_name": "多変量解析",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_required_to_master_ds": true,
+    "quarter": 3,
+    "syllabus_number": "2102600A"
+  },
+  "31-2-22-33-05": {
+    "course_name": "パターン認識",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_enrollable_ie": true,
+    "quarter": 3,
+    "syllabus_number": "2126600A"
+  },
+  "31-2-22-34-01": {
+    "course_name": "ニューラルネットワーク",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_required_to_master_ds": true,
+    "is_teaching_program_course": true,
+    "quarter": 4,
+    "syllabus_number": "2102400A"
+  },
+  "31-2-22-34-04": {
+    "course_name": "生体情報システム",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_teaching_program_course": true,
+    "quarter": 4,
+    "syllabus_number": "2102700A"
+  },
+  "31-2-23-31-01": {
+    "course_name": "データベース",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_required_to_master_ie": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "quarter": 1,
+    "syllabus_number": "2103500A"
+  },
+  "31-2-23-31-02": {
+    "course_name": "アルゴリズムとデータ構造",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_required_to_master_ie": true,
+    "semester": 1,
+    "syllabus_number": "2103600A"
+  },
+  "31-2-23-31-03": {
+    "course_name": "プログラミング",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_required_to_master_ie": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "2103700A"
+  },
+  "31-2-23-33-04": {
+    "course_name": "情報ネットワークとセキュリティ",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "quarter": 3,
+    "syllabus_number": "2103800A"
+  },
+  "31-2-23-33-05": {
+    "course_name": "ソフトウェア工学",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "quarter": 3,
+    "syllabus_number": "2103900A"
+  },
+  "31-2-23-34-06": {
+    "course_name": "コンピュータグラフィックス",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "quarter": 4,
+    "syllabus_number": "2104000A"
+  },
+  "31-2-23-34-07": {
+    "course_name": "組み込みシステム",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "quarter": 4,
+    "syllabus_number": "2104100A"
+  },
+  "31-2-24-31-01": {
+    "course_name": "感性情報処理",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 1,
+    "syllabus_number": "2104500A"
+  },
+  "31-2-24-32-02": {
+    "course_name": "最適化モデリング",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_required_to_master_ba": true,
+    "quarter": 2,
+    "syllabus_number": "2104600A"
+  },
+  "31-2-24-32-03": {
+    "course_name": "会計情報と経営",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "quarter": 2,
+    "syllabus_number": "2104700A"
+  },
+  "31-2-24-33-04": {
+    "course_name": "経営と数理モデル",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_required_to_master_ba": true,
+    "quarter": 3,
+    "syllabus_number": "2104800A"
+  },
+  "31-2-24-34-05": {
+    "course_name": "インターネットマーケティング",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "quarter": 4,
+    "syllabus_number": "2104900A"
+  },
+  "31-2-24-34-06": {
+    "course_name": "シミュレーション",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_required_to_master_ba": true,
+    "quarter": 4,
+    "syllabus_number": "2105000A"
+  },
+  "31-2-25-33-01": {
+    "course_name": "認知・感性とデータ分析",
+    "credits": 2,
+    "quarter": 3,
+    "syllabus_number": "2105400A"
+  },
+  "31-2-25-34-02": {
+    "course_name": "大規模・オープンデータ分析",
+    "credits": 2,
+    "quarter": 4,
+    "syllabus_number": "2105500A"
+  },
+  "31-2-26-21-01": {
+    "course_name": "マーケティング論Ⅰ",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "2033800A"
+  },
+  "31-2-26-21-02": {
+    "course_name": "地域マネジメント論",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "2106200A"
+  },
+  "31-2-92-21-01": {
+    "course_name": "教育原理",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7000200A"
+  },
+  "31-2-92-21-02": {
+    "course_name": "生徒指導論",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7002300A"
+  },
+  "31-2-92-21-03": {
+    "course_name": "教育相談Ⅰ",
+    "credits": 2,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7002700A"
+  },
+  "31-2-92-21-04": {
+    "course_name": "教育方法論Ⅰ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7002300A"
+  },
+  "31-2-92-22-05": {
+    "course_name": "教育方法論Ⅱ",
+    "credits": 2,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7002400A"
+  },
+  "31-2-92-22-06": {
+    "course_name": "教育相談Ⅱ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7002800B"
+  },
+  "31-2-92-22-07": {
+    "course_name": "教育心理学",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7000300A"
+  },
+  "31-2-93-11-01": {
+    "course_name": "学校体験活動",
+    "credits": 2,
+    "is_full_year": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "syllabus_number": "7005600A"
+  },
+  "31-3-12-11-01": {
+    "course_name": "ワークショップデザインⅡ",
+    "credits": 2,
+    "is_full_year": true,
+    "syllabus_number": "1012500A"
+  },
+  "31-3-14-21-01": {
+    "course_name": "総合英語中上級Ⅰ",
+    "credits": 1,
+    "semester": 1,
+    "syllabus_number": "1013900A"
+  },
+  "31-3-14-22-02": {
+    "course_name": "グローバル英語",
+    "credits": 2,
+    "semester": 2,
+    "syllabus_number": "1011200A"
+  },
+  "31-3-14-22-03": {
+    "course_name": "総合英語中上級Ⅱ",
+    "credits": 1,
+    "semester": 2,
+    "syllabus_number": "1014000A"
+  },
+  "31-3-21-31-01": {
+    "course_name": "実践英語(情報)",
+    "credits": 2,
+    "quarter": 1
+  },
+  "31-3-21-31-02": {
+    "course_name": "社会調査法",
+    "credits": 2,
+    "quarter": 1
+  },
+  "31-3-21-32-03": {
+    "course_name": "情報行動心理学",
+    "credits": 2,
+    "quarter": 2
+  },
+  "31-3-21-33-04": {
+    "course_name": "コーパス言語学",
+    "credits": 2,
+    "quarter": 3
+  },
+  "31-3-21-34-05": {
+    "course_name": "AI、コンピュータと人間",
+    "credits": 2,
+    "quarter": 4
+  },
+  "31-3-22-31-01": {
+    "course_name": "モデリングの数理",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 1
+  },
+  "31-3-22-31-02": {
+    "course_name": "数値解析",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 1
+  },
+  "31-3-22-31-03": {
+    "course_name": "AI・自然言語処理",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 1
+  },
+  "31-3-22-32-04": {
+    "course_name": "AI・推薦システム",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "quarter": 2
+  },
+  "31-3-22-32-07": {
+    "course_name": "環境データサイエンス",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "quarter": 2
+  },
+  "31-3-22-33-05": {
+    "course_name": "AI・画像情報処理",
+    "credits": 2,
+    "is_enrollable_ds": true,
+    "is_teaching_program_course": true,
+    "quarter": 3
+  },
+  "31-3-22-34-06": {
+    "course_name": "質的データ分析",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 4
+  },
+  "31-3-23-31-01": {
+    "course_name": "ヒューマンコンピュータインタラクション",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "is_teaching_program_course": true,
+    "quarter": 1
+  },
+  "31-3-23-32-02": {
+    "course_name": "医療情報システム",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ie": true,
+    "quarter": 2
+  },
+  "31-3-23-32-04": {
+    "course_name": "人間とロボットの共生",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "quarter": 2
+  },
+  "31-3-23-33-03": {
+    "course_name": "モバイルコンピューティング",
+    "credits": 2,
+    "is_enrollable_ie": true,
+    "quarter": 3
+  },
+  "31-3-24-31-01": {
+    "course_name": "品質管理とデータ分析",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ie": true,
+    "quarter": 1
+  },
+  "31-3-24-32-02": {
+    "course_name": "マーケティング・リサーチ",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 2
+  },
+  "31-3-24-33-03": {
+    "course_name": "フィンテック・ブロックチェーン",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ie": true,
+    "quarter": 3
+  },
+  "31-3-24-34-04": {
+    "course_name": "金融データ解析",
+    "credits": 2,
+    "is_enrollable_ba": true,
+    "is_enrollable_ds": true,
+    "quarter": 4
+  },
+  "31-3-25-31-01": {
+    "course_name": "生体情報分析",
+    "credits": 2,
+    "quarter": 1
+  },
+  "31-3-25-31-02": {
+    "course_name": "専門ゼミ１",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "semester": 1
+  },
+  "31-3-25-33-03": {
+    "course_name": "専門ゼミ２",
+    "credits": 2,
+    "is_required_to_graduate": true,
+    "semester": 2
+  },
+  "31-3-26-21-01": {
+    "course_name": "スポーツ産業学",
+    "credits": 2,
+    "semester": 1
+  },
+  "31-3-26-22-02": {
+    "course_name": "スポーツマネジメント",
+    "credits": 2,
+    "semester": 2
+  },
+  "31-3-26-22-03": {
+    "course_name": "スポーツツーリズム論",
+    "credits": 2,
+    "semester": 2
+  },
+  "31-3-91-21-01": {
+    "course_name": "情報社会と職業",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "2021500A"
+  },
+  "31-3-91-21-02": {
+    "course_name": "情報科教育法Ⅰ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7002000A"
+  },
+  "31-3-91-22-03": {
+    "course_name": "情報科教育法Ⅱ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7002100A"
+  },
+  "31-3-92-21-01": {
+    "course_name": "特別活動及び総合的な学習の時間",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1
+  },
+  "31-3-92-22-02": {
+    "course_name": "教育行政論",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7000400A"
+  },
+  "31-3-92-22-03": {
+    "course_name": "特別支援教育",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7005200A"
+  },
+  "31-3-92-22-04": {
+    "course_name": "教育実習基礎講座Ⅰ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2,
+    "syllabus_number": "7002900A"
+  },
+  "31-4-12-11-01": {
+    "course_name": "ワークショップデザインⅢ",
+    "credits": 2,
+    "is_full_year": true,
+    "syllabus_number": "1012600A"
+  },
+  "31-4-25-11-01": {
+    "course_name": "卒業研究",
+    "credits": 4,
+    "is_full_year": true,
+    "is_required_to_graduate": true
+  },
+  "31-4-26-21-01": {
+    "course_name": "保健医療と福祉",
+    "credits": 2,
+    "semester": 1,
+    "syllabus_number": "2029700A"
+  },
+  "31-4-26-22-02": {
+    "course_name": "医療経済学",
+    "credits": 1,
+    "semester": 2
+  },
+  "31-4-92-11-02": {
+    "course_name": "教育実習Ⅰ",
+    "credits": 2,
+    "is_full_year": true,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "syllabus_number": "7003100A"
+  },
+  "31-4-92-21-01": {
+    "course_name": "教育実習基礎講座Ⅱ",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 1,
+    "syllabus_number": "7003000A"
+  },
+  "31-4-92-22-03": {
+    "course_name": "教職実践演習（中・高）",
+    "credits": 2,
+    "is_required_to_teaching_program": true,
+    "is_teaching_program_course": true,
+    "semester": 2
+  }
+}
