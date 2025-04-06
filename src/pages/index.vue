@@ -181,138 +181,140 @@ function enrollAllRequired() {
         }}
       </p>
     </div> -->
-    <div class="m-2 flex h-10 gap-2">
-      <label>
-        <span class="mr-1">学年</span>
-        <select
-          v-model="currentGrade"
-          class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
-        >
-          <option value="1">1年</option>
-          <option value="2">2年</option>
-          <option value="3">3年</option>
-          <option value="4">4年</option>
-        </select>
-      </label>
-      <label>
-        主プログラム
-        <select
-          v-model="mainProgram"
-          class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
-        >
-          <option value="1">DS</option>
-          <option value="2">IE</option>
-          <option value="3">BA</option>
-        </select>
-      </label>
-      <div class="mr-auto flex items-center gap-2">
-        <span>サブプログラム</span>
-        <label v-for="(value, key) in enrolledPrograms" :key="key" class="flex items-center">
-          <input
-            v-model="enrolledPrograms[key]"
-            type="checkbox"
-            class="mr-1"
-            :disabled="
-              (key === 'DS' && mainProgram === '1') ||
-              (key === 'IE' && mainProgram === '2') ||
-              (key === 'BA' && mainProgram === '3')
-            "
-          />
-          {{ key }}
+    <header class="sticky top-0 z-10 bg-white pt-2 shadow-sm">
+      <div class="mx-2 mb-2 flex h-10 gap-2">
+        <label>
+          <span class="mr-1">学年</span>
+          <select
+            v-model="currentGrade"
+            class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-lg"
+          >
+            <option value="1">1年</option>
+            <option value="2">2年</option>
+            <option value="3">3年</option>
+            <option value="4">4年</option>
+          </select>
         </label>
-      </div>
-      <button
-        class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
-        @click="enrollAllRequired"
-      >
-        必修科目をすべて登録
-      </button>
-      <button
-        class="h-full rounded-md border border-gray-300 bg-red-500 px-1 font-bold text-white shadow-sm"
-        @click="Object.keys(enrolledCourses).forEach((key) => (enrolledCourses[key] = false))"
-      >
-        選択科目をすべて解除
-      </button>
-    </div>
-    <div class="flex">
-      <div class="grid grow grid-cols-4">
+        <label>
+          主プログラム
+          <select
+            v-model="mainProgram"
+            class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
+          >
+            <option value="1">DS</option>
+            <option value="2">IE</option>
+            <option value="3">BA</option>
+          </select>
+        </label>
+        <div class="mr-auto flex items-center gap-2">
+          <span>サブプログラム</span>
+          <label v-for="(value, key) in enrolledPrograms" :key="key" class="flex items-center">
+            <input
+              v-model="enrolledPrograms[key]"
+              type="checkbox"
+              class="mr-1"
+              :disabled="
+                (key === 'DS' && mainProgram === '1') ||
+                (key === 'IE' && mainProgram === '2') ||
+                (key === 'BA' && mainProgram === '3')
+              "
+            />
+            {{ key }}
+          </label>
+        </div>
         <button
-          class="flex cursor-pointer flex-col items-center border-b-6 border-amber-400 text-amber-400"
-          :class="{ 'bg-amber-100': currentQuarter === 1 }"
-          @click="currentQuarter = 1"
+          class="h-full rounded-md border border-gray-300 bg-white px-1 shadow-sm"
+          @click="enrollAllRequired"
         >
-          <div class="font-bold">1Q</div>
-          <div class="flex">
-            <div>
-              <span>{{ quarterStats[1].credit }}</span
-              >単位
-            </div>
-            <div>
-              <span>{{ quarterStats[1].period }}</span
-              >コマ
-            </div>
-          </div>
+          必修科目をすべて登録
         </button>
         <button
-          class="flex cursor-pointer flex-col items-center border-b-6 border-sky-400 text-sky-400"
-          :class="{ 'bg-sky-100': currentQuarter === 2 }"
-          @click="currentQuarter = 2"
+          class="h-full rounded-md border border-gray-300 bg-red-500 px-1 font-bold text-white shadow-sm"
+          @click="Object.keys(enrolledCourses).forEach((key) => (enrolledCourses[key] = false))"
         >
-          <div class="font-bold">2Q</div>
-          <div class="flex">
-            <div>
-              <span>{{ quarterStats[2].credit }}</span
-              >単位
-            </div>
-            <div>
-              <span>{{ quarterStats[2].period }}</span
-              >コマ
-            </div>
-          </div>
-        </button>
-        <button
-          class="flex cursor-pointer flex-col items-center border-b-6 border-pink-400 text-pink-400"
-          :class="{ 'bg-pink-100': currentQuarter === 3 }"
-          @click="currentQuarter = 3"
-        >
-          <div class="font-bold">3Q</div>
-          <div class="flex">
-            <div>
-              <span>{{ quarterStats[3].credit }}</span
-              >単位
-            </div>
-            <div>
-              <span>{{ quarterStats[3].period }}</span
-              >コマ
-            </div>
-          </div>
-        </button>
-        <button
-          class="flex cursor-pointer flex-col items-center border-b-6 border-blue-600 text-blue-600"
-          :class="{ 'bg-blue-100': currentQuarter === 4 }"
-          @click="currentQuarter = 4"
-        >
-          <div class="font-bold">4Q</div>
-          <div class="flex">
-            <div>
-              <span>{{ quarterStats[4].credit }}</span
-              >単位
-            </div>
-            <div>
-              <span>{{ quarterStats[4].period }}</span
-              >コマ
-            </div>
-          </div>
+          選択科目をすべて解除
         </button>
       </div>
-      <div class="flex w-32 flex-col items-center justify-center bg-gray-800 text-white">
-        <div>
-          通算
-          <span class="mx-2">{{ totalCredits }}</span
-          >単位
+      <div class="flex">
+        <div class="grid grow grid-cols-4">
+          <button
+            class="flex cursor-pointer flex-col items-center border-b-6 border-amber-400 text-amber-400"
+            :class="{ 'bg-amber-100': currentQuarter === 1 }"
+            @click="currentQuarter = 1"
+          >
+            <div class="font-bold">1Q</div>
+            <div class="flex">
+              <div>
+                <span>{{ quarterStats[1].credit }}</span
+                >単位
+              </div>
+              <div>
+                <span>{{ quarterStats[1].period }}</span
+                >コマ
+              </div>
+            </div>
+          </button>
+          <button
+            class="flex cursor-pointer flex-col items-center border-b-6 border-sky-400 text-sky-400"
+            :class="{ 'bg-sky-100': currentQuarter === 2 }"
+            @click="currentQuarter = 2"
+          >
+            <div class="font-bold">2Q</div>
+            <div class="flex">
+              <div>
+                <span>{{ quarterStats[2].credit }}</span
+                >単位
+              </div>
+              <div>
+                <span>{{ quarterStats[2].period }}</span
+                >コマ
+              </div>
+            </div>
+          </button>
+          <button
+            class="flex cursor-pointer flex-col items-center border-b-6 border-pink-400 text-pink-400"
+            :class="{ 'bg-pink-100': currentQuarter === 3 }"
+            @click="currentQuarter = 3"
+          >
+            <div class="font-bold">3Q</div>
+            <div class="flex">
+              <div>
+                <span>{{ quarterStats[3].credit }}</span
+                >単位
+              </div>
+              <div>
+                <span>{{ quarterStats[3].period }}</span
+                >コマ
+              </div>
+            </div>
+          </button>
+          <button
+            class="flex cursor-pointer flex-col items-center border-b-6 border-blue-600 text-blue-600"
+            :class="{ 'bg-blue-100': currentQuarter === 4 }"
+            @click="currentQuarter = 4"
+          >
+            <div class="font-bold">4Q</div>
+            <div class="flex">
+              <div>
+                <span>{{ quarterStats[4].credit }}</span
+                >単位
+              </div>
+              <div>
+                <span>{{ quarterStats[4].period }}</span
+                >コマ
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="flex w-32 flex-col items-center justify-center bg-gray-800 text-white">
+          <div>
+            通算
+            <span class="mx-2">{{ totalCredits }}</span
+            >単位
+          </div>
         </div>
       </div>
-    </div>
+    </header>
     <table class="w-full table-fixed border-collapse border border-gray-200">
       <thead>
         <tr>
