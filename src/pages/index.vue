@@ -314,7 +314,7 @@ function enrollAllRequired() {
         <div class="flex w-32 flex-col items-center justify-center bg-gray-800 text-white">
           <div>
             通算
-            <span class="mx-2">{{ totalCredits.toFixed(1) }}</span
+            <span class="mx-2">{{ totalCredits }}</span
             >単位
           </div>
         </div>
