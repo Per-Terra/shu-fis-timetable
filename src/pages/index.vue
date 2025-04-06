@@ -382,7 +382,7 @@ function enrollAllRequired() {
         <tr>
           <th class="w-10 border border-gray-300 text-center">集中</th>
           <td class="border border-gray-300 p-2 align-top" colspan="5">
-            <div class="flex h-full w-full flex-col gap-2">
+            <div class="grid h-full w-full grid-cols-3 gap-2">
               <ClassLine
                 v-for="[number, entry] in visibleTimetable.filter(
                   ([num, e]) => e.is_intensive_course,
