@@ -291,7 +291,7 @@ function enrollAllRequired() {
     <table class="w-full table-fixed border-collapse border border-gray-200">
       <thead>
         <tr>
-          <th class="w-10 border border-gray-300"></th>
+          <th class="h-10 w-10 border border-gray-300"></th>
           <th v-for="col in 5" :key="'col-' + col" class="border border-gray-300">
             {{ ['月', '火', '水', '木', '金'][col - 1] }}
           </th>
