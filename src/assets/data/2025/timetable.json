@@ -229,7 +229,7 @@
     },
     {
       "day": 5,
-      "period": 4,
+      "period": 5,
       "location": "1124"
     }
   ],
@@ -241,7 +241,7 @@
     },
     {
       "day": 5,
-      "period": 4,
+      "period": 5,
       "location": "1124"
     }
   ],
@@ -817,14 +817,14 @@
     },
     {
       "day": 5,
-      "period": 4,
+      "period": 5,
       "location": "1121"
     }
   ],
   "31-2-92-21-02": [
     {
       "day": 5,
-      "period": 4,
+      "period": 5,
       "intensive_schedule": "8/21、8/22、8/23",
       "type": "教",
       "location": "601",
