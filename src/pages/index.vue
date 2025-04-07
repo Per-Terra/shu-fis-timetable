@@ -309,12 +309,12 @@ function enrollAllRequired() {
       <tbody>
         <tr v-for="row in 6" :key="'row-' + row">
           <th class="w-12 border border-gray-300 text-center">
-            <div class="my-2">
-              <span class="block">{{ row }}限</span>
+            <div class="my-3">
+              <span class="mb-1 block">{{ row }}限</span>
               <span
                 v-for="time in timeSlots[row - 1]"
                 :key="`row-${time}`"
-                class="mt-1 block text-xs font-normal text-gray-400"
+                class="block text-xs leading-3.5 font-normal text-gray-400"
                 >{{ time }}</span
               >
             </div>
