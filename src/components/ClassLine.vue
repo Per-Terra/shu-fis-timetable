@@ -111,6 +111,7 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
             target="_blank"
             :href="`https://aaaweb.shunan-u.ac.jp/aa_web/syllabus/se0032.aspx?me=EU&sk=2025_2_${course.syllabus_number}&syw=1`"
             class="underline-offset-2 hover:underline"
+            @click.stop
           >
             <slot />
           </a>
