@@ -219,7 +219,7 @@ function enrollAllRequired() {
                 (key === 'BA' && mainProgram === '3')
               "
             />
-            {{ key }}
+            {{ key === 'TP' ? '教職' : key }}
           </label>
         </div>
         <button
