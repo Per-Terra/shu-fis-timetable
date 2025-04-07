@@ -74,7 +74,7 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
             ? 'bg-sky-100'
             : 'bg-white',
       disabledState ? '' : 'cursor-pointer',
-      props.hover === props.number ? '-m-[1px] border-2 border-sky-500' : '',
+      props.hover === props.number ? '-m-[2px] border-[3px] border-sky-500' : '',
     ]"
     @mouseenter="onMouseEnter"
     @mouseleave="onMouseLeave"
