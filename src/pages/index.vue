@@ -349,15 +349,6 @@ function enrollAllRequired() {
                 :timetable-entry="entry"
                 :disabled="
                   parseInt(number.substring(3, 4)) > parseInt(currentGrade) ||
-                  (['22', '23', '24'].includes(number.substring(5, 7)) &&
-                    ((!enrolledPrograms.DS && number.substring(5, 7) === '22') ||
-                      (!enrolledPrograms.IE && number.substring(5, 7) === '23') ||
-                      (!enrolledPrograms.BA && number.substring(5, 7) === '24')) &&
-                    !(
-                      (courses[number].is_enrollable_ds && enrolledPrograms.DS) ||
-                      (courses[number].is_enrollable_ie && enrolledPrograms.IE) ||
-                      (courses[number].is_enrollable_ba && enrolledPrograms.BA)
-                    )) ||
                   (!enrolledPrograms.TP && number.substring(5, 6) === '9')
                 "
                 :current-grade="parseInt(currentGrade)"
@@ -386,15 +377,6 @@ function enrollAllRequired() {
                 :timetable-entry="entry"
                 :disabled="
                   parseInt(number.substring(3, 4)) > parseInt(currentGrade) ||
-                  (['22', '23', '24'].includes(number.substring(5, 7)) &&
-                    ((!enrolledPrograms.DS && number.substring(5, 7) === '22') ||
-                      (!enrolledPrograms.IE && number.substring(5, 7) === '23') ||
-                      (!enrolledPrograms.BA && number.substring(5, 7) === '24')) &&
-                    !(
-                      (courses[number].is_enrollable_ds && enrolledPrograms.DS) ||
-                      (courses[number].is_enrollable_ie && enrolledPrograms.IE) ||
-                      (courses[number].is_enrollable_ba && enrolledPrograms.BA)
-                    )) ||
                   (!enrolledPrograms.TP && number.substring(5, 6) === '9')
                 "
                 :current-grade="parseInt(currentGrade)"
