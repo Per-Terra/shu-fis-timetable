@@ -7,6 +7,15 @@ import type { TimetableEntry } from '~/types/timetableEntry';
 const courses = coursesData as { [key: string]: Course };
 const timetable = timetableData as { [key: string]: TimetableEntry[] };
 
+const timeSlots = [
+  ['9:00', '10:30'],
+  ['10:40', '12:10'],
+  ['13:00', '14:30'],
+  ['14:40', '16:10'],
+  ['16:20', '17:50'],
+  ['18:00', '19:30'],
+];
+
 const flattenTimetable: [string, TimetableEntry][] = (() => {
   const seen = new Set<string>();
   const result: [string, TimetableEntry][] = [];
@@ -291,7 +300,7 @@ function enrollAllRequired() {
     <table class="w-full table-fixed border-collapse border border-gray-200">
       <thead>
         <tr>
-          <th class="h-10 w-10 border border-gray-300"></th>
+          <th class="h-10 w-12 border border-gray-300"></th>
           <th v-for="col in 5" :key="'col-' + col" class="border border-gray-300">
             {{ ['月', '火', '水', '木', '金'][col - 1] }}
           </th>
@@ -299,7 +308,17 @@ function enrollAllRequired() {
       </thead>
       <tbody>
         <tr v-for="row in 6" :key="'row-' + row">
-          <th class="w-10 border border-gray-300 text-center">{{ row }}限</th>
+          <th class="w-12 border border-gray-300 text-center">
+            <div class="my-2">
+              <span class="block">{{ row }}限</span>
+              <span
+                v-for="time in timeSlots[row - 1]"
+                :key="`row-${time}`"
+                class="mt-1 block text-xs font-normal text-gray-400"
+                >{{ time }}</span
+              >
+            </div>
+          </th>
           <td
             v-for="col in 5"
             :key="'cell-' + row + '-' + col"
