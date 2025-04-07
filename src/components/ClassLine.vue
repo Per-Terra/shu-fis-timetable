@@ -2,9 +2,11 @@
 import { computed } from 'vue';
 import type { Course } from '~/types/course';
 import syllabusData from '~/assets/data/2025/syllabus.json';
+import stringsData from '~/assets/data/2025/strings.json';
 import type { TimetableEntry } from '~/types/timetableEntry';
 
 const syllabuses = syllabusData as { [key: string]: any }[];
+const strings = stringsData as { [key: string]: any };
 
 const props = defineProps<{
   checked: boolean;
@@ -16,6 +18,7 @@ const props = defineProps<{
   hover?: string | null;
   disabled?: boolean;
   currentGrade: number;
+  showField: boolean;
 }>();
 
 const emit = defineEmits<{
@@ -52,6 +55,7 @@ const onMouseLeave = () => emit('update:hover', null);
 
 const level = parseInt(props.number.substring(3, 4));
 const field = props.number.substring(5, 7);
+const fieldStrings = strings.field['31'][field];
 
 const syllabus = syllabuses.filter((s) => s.syllabus_number === props.course.syllabus_number)[0];
 
@@ -143,6 +147,11 @@ const disabledState = computed(() => props.disabled || localCompleted.value || l
                 : ''
           }}</span>
           <span>{{ course.credits }}単位</span>
+        </span>
+        <span v-if="showField">
+          <Icon name="ic:baseline-folder" class="relative top-[2px]" />
+          <span class="ml-1">{{ fieldStrings.category }}</span>
+          <span class="ml-1">{{ fieldStrings.subject }}</span>
         </span>
         <span class="flex flex-wrap gap-1">
           <span v-if="syllabus">

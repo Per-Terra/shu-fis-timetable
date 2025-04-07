@@ -36,6 +36,7 @@ const completedCourses = reactive(
 const seenCourses = reactive(Object.fromEntries(Object.keys(courses).map((key) => [key, false])));
 const currentGrade = ref('1');
 const mainProgram = ref('1');
+const showField = ref(false);
 
 // 状態の復元（ブラウザ上のみ）
 onMounted(() => {
@@ -50,6 +51,7 @@ onMounted(() => {
         Object.assign(seenCourses, state.seenCourses || {});
         currentGrade.value = state.currentGrade || currentGrade.value;
         mainProgram.value = state.mainProgram || mainProgram.value;
+        showField.value = state.showField || showField.value;
       } catch (e) {
         console.error('Failed to parse saved state:', e);
       }
@@ -59,7 +61,15 @@ onMounted(() => {
 
 // 状態の保存（ブラウザ上のみ）
 watch(
-  [enrolledPrograms, enrolledCourses, completedCourses, seenCourses, currentGrade, mainProgram],
+  [
+    enrolledPrograms,
+    enrolledCourses,
+    completedCourses,
+    seenCourses,
+    currentGrade,
+    mainProgram,
+    showField,
+  ],
   () => {
     if (typeof window !== 'undefined') {
       const state = {
@@ -69,6 +79,7 @@ watch(
         seenCourses: { ...seenCourses },
         currentGrade: currentGrade.value,
         mainProgram: mainProgram.value,
+        showField: showField.value,
       };
       localStorage.setItem('timetableState', JSON.stringify(state));
     }
@@ -222,6 +233,12 @@ function enrollAllRequired() {
             {{ key === 'TP' ? '教職' : key }}
           </label>
         </div>
+        <div class="flex gap-2 border-l border-gray-300 pl-2">
+          <label>
+            <input v-model="showField" type="checkbox" />
+            学問分野
+          </label>
+        </div>
         <button
           class="ml-auto h-full cursor-pointer rounded-md border border-gray-300 bg-white px-2 hover:bg-gray-100"
           @click="enrollAllRequired"
@@ -325,6 +342,7 @@ function enrollAllRequired() {
                   (!enrolledPrograms.TP && number.substring(5, 6) === '9')
                 "
                 :current-grade="parseInt(currentGrade)"
+                :show-field="showField"
               >
                 {{ courses[number].course_name }}
               </ClassLine>
@@ -361,6 +379,7 @@ function enrollAllRequired() {
                   (!enrolledPrograms.TP && number.substring(5, 6) === '9')
                 "
                 :current-grade="parseInt(currentGrade)"
+                :show-field="showField"
               >
                 {{ courses[number].course_name }}
               </ClassLine>
